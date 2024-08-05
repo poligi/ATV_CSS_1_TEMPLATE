@@ -1,0 +1,59 @@
+body {
+    font-family: monospace, sans-serif;  /*1*/
+    background-color: antiquewhite;   /*3*/
+}
+
+pre {
+    color: purple;       /*2*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: brown;     /*4*/
+    font-size: 20px;
+}
+
+strong {
+    color: blue;     /*5*/
+}
+
+mark {
+    color: rgb(214, 28, 137);     /*6*/
+}
+
+a {
+    color: green;         /*7*/
+    text-decoration: none;  /*8*/
+}
+
+table, th, td {
+    border: 1px solid black;  /*9 e 14*/ 
+    width: 30vh;               /*10*/
+
+    border-collapse: collapse;  /*13*/
+}
+
+td:nth-child(even) {
+    background-color: lightgray;
+}
+
+#titulos {
+    background-color: aqua;  /*12*/
+}
+
+.lista-descricao {
+    border: 1px solid black;  /*15*/
+}
+
+.lista-episodios {
+    list-style-type: upper-alpha;  /*16*/
+}
+
+.lista-santuario {
+    list-style-type: circle;   /*17*/
+}
+
+.iframe {
+    width: 30vh;   /*19*/
+    height: 30vh;  /*20*/
+    
+}
